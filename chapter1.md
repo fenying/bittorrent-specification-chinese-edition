@@ -32,10 +32,4 @@
 
 **行业标准**: 本文档中，*斜体字*标注的内容，表示在多个BT客户端软件中已经使用的，约定俗成（既成事实）的规范。
 
-
-
-piece v/s block: In this document, a piece refers to a portion of the downloaded data that is described in the metainfo file, which can be verified by a SHA1 hash. A block is a portion of data that a client may request from a peer. Two or more blocks make up a whole piece, which may then be verified.
-defacto standard: Large blocks of text in italics indicates a practice so common in various client implementations of BitTorrent that it is considered a defacto standard.
-In order to help others find recent changes that have been made to this document, please fill out the change log (last section). This should contain a brief (i.e. one-line) entry for each major change that you've made to the document.
-
-
+为了帮助读者了解本文档的改动记录，请在本文档的最后一章节填写修改记录。
