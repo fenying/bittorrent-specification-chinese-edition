@@ -8,7 +8,7 @@
 
 ## 目的
 
-编纂本文档的目的在于详细地描述 BitTorrent v1.0 协议的内容——Bram的那篇[《BitTorrent协议规范》](http://bittorrent.org/beps/bep_0003.html)使用通俗的语言描述了协议的规范，却未描述关于行为上的细节规则。本文档致力于使用清晰、明确的文字描述协议，以成为 BitTorrent v1.0 协议的正式规范文档，以便将来作为扩展、升级协议的参考基础。
+编纂本文档的目的在于详细地描述 BitTorrent v1.0 协议的内容——Bram的那一篇[《BitTorrent协议规范》](http://bittorrent.org/beps/bep_0003.html)使用通俗的语言描述了协议的规范，却未描述关于行为上的细节规则。本文档致力于使用清晰、明确的文字描述协议，以成为 BitTorrent v1.0 协议的正式规范文档，以便将来作为扩展、升级协议的参考基础。
 
 ## 范围
 
