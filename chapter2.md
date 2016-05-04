@@ -14,13 +14,13 @@
     4:abcd
     ```
 
-    表示4个字节的串 "abcd"
+    表示4个字节的串 `"abcd"`
 
     ```
     0:
     ```
 
-    表示0个字节的串 ""
+    表示0个字节的串 `""`
 
 -   整数（Integer）
 
@@ -30,13 +30,13 @@
     i1234e
     ```
 
-    表示整数 1234
+    表示整数 `1234`
 
     ```
     i-1e
     ```
 
-    表示整数 -1
+    表示整数 `-1`
 
     注意：
 
@@ -52,13 +52,13 @@
     l4:spam4:eggse
     ```
 
-    表示 [ "spam", "eggs" ]
+    表示 `[ "spam", "eggs" ]`
 
     ```
     li123e5:helloi111ee
     ```
 
-    表示 [ 123, "hello", 111 ]
+    表示 `[ 123, "hello", 111 ]`
 
     ```
     le
@@ -76,25 +76,25 @@
     d3:cow3:moo4:spam4:eggse
     ```
 
-    表示 { "cow" => "moo", "spam" => "eggs" }
+    表示 `{ "cow" => "moo", "spam" => "eggs" }`
 
     ```
     d4:name5:Angus3:agei23ee
     ```
 
-    表示 { "name" => "Angus", "age" => 23 }
+    表示 `{ "name" => "Angus", "age" => 23 }`
 
     ```
     d4:spaml1:a1:bee
     ```
 
-    表示 { "spam" => [ "a", "b" ] }
+    表示 `{ "spam" => [ "a", "b" ] }`
 
     ```
-    d4:spaml1:a1:bee
+    d9:publisher3:bob17:publisher-webpage15:www.example.com18:publisher.location4:homee
     ```
 
-    表示 { "spam" => [ "a", "b" ] }
+    表示 `{ "publisher" => "bob", "publisher-webpage" => "www.example.com", "publisher.location" => "home" }`
 
 
 
