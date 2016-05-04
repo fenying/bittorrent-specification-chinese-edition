@@ -1,3 +1,4 @@
-# My Awesome Book
+# BT 协议规范文档中文版
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+本文档是对 [Bittorrent Protocol Specification v1.0](https://wiki.theory.org/BitTorrentSpecification) 的翻译。
