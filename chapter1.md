@@ -24,11 +24,16 @@
 
 为了清晰、明确地表述，本文档中使用了一定量的术语，如下：
 
-*BitTorrent*: 指 BitTorrent 协议，下面简称 *BT*。
+**BitTorrent**: 指 BitTorrent 协议，下面简称 **BT**。
 
-*伙伴(Peer)*与*BT客户端(Client)*: 本文档中，*同伴*是指一切参与下载（上传）活动的*BT客户端*。因此您的*BT客户端*也是一个*伙伴*，只不过它是运行在您的本地计算机上面的。您可以认为
+**伙伴(Peer)**与**BT客户端(Client)**: 本文档中，**同伴**是指一切参与下载（上传）活动的**BT客户端**。因此您的**BT客户端**也是一个**伙伴**，只不过它是运行在您的本地计算机上面的。您可以认为它们就是彼此相连的大量**客户端**。
 
-peer v/s client: In this document, a peer is any BitTorrent client participating in a download. The client is also a peer, however it is the BitTorrent client that is running on the local machine. Readers of this specification may choose to think of themselves as the client which connects to numerous peers.
+**分片(Piece)**与**数据块(Block)**: 本文档中，一个**分片**是一个下载单元，每个分片都有独立的SHA1校验码，这些校验码储存在元信息文件中（即种子文件）。**数据块**是下载时从**同伴**处传来的一段段的数据，一个或者多个**数据块**凑成一个**分片**。
+
+**行业标准**: 本文档中，*斜体字*标注的内容，表示在多个BT客户端软件中已经使用的，约定俗成（既成事实）的规范。
+
+
+
 piece v/s block: In this document, a piece refers to a portion of the downloaded data that is described in the metainfo file, which can be verified by a SHA1 hash. A block is a portion of data that a client may request from a peer. Two or more blocks make up a whole piece, which may then be verified.
 defacto standard: Large blocks of text in italics indicates a practice so common in various client implementations of BitTorrent that it is considered a defacto standard.
 In order to help others find recent changes that have been made to this document, please fill out the change log (last section). This should contain a brief (i.e. one-line) entry for each major change that you've made to the document.
