@@ -79,10 +79,16 @@
     表示 { "cow" => "moo", "spam" => "eggs" }
 
     ```
-    d3:agei23ee
+    d4:name5:Angus3:agei23ee
     ```
 
-    表示 { "age" => 23 }
+    表示 { "name" => "Angus", "age" => 23 }
+
+    ```
+    d4:spaml1:a1:bee
+    ```
+
+    表示 { "spam" => [ "a", "b" ] }
 
     ```
     d4:spaml1:a1:bee
