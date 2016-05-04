@@ -105,7 +105,7 @@
     > 注意：**key** 是 **BE字节串**，而不是字符串，因此 **key** 的比较是二进制比较而不是字符串比较。
 
 
-### 各种语言的 BEncoding 实现
+## 各种语言的 BEncoding 实现
 
 > - [C](https://sourceforge.net/p/funzix/code/ci/master/tree/bencode/) by [Mike Frysinger](https://wiki.theory.org/index.php?title=User:Vapier&action=edit&redlink=1)
 > - [C](https://github.com/willemt/CHeaplessBencodeReader)
