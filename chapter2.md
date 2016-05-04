@@ -114,7 +114,9 @@
 > - [Clojure](http://nakkaya.com/2009/11/02/decoding-bencoded-streams-in-clojure/) by [nakkaya](https://wiki.theory.org/index.php?title=User:Nakkaya&action=edit&redlink=1)
 > - [Common Lisp](https://gist.github.com/2021424) by [osa1](https://wiki.theory.org/index.php?title=User:Osa1&action=edit&redlink=1)
 > - [Elixir](https://github.com/folz/bento) by [Rodney Folz](https://twitter.com/rodneyfolz)
-> - 
+> ...
+
+> 更多查看原文 [BEncoding 的多种语言实现](https://wiki.theory.org/BitTorrentSpecification#Implementations)。
 
 
 
