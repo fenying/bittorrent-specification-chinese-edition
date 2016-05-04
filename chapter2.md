@@ -1,8 +1,10 @@
-# 第二篇：Bencoding
+# 第二篇：BEncoding
 
-**Bencoding** 是一种用于组织、描述数据的简洁编码格式，它支持 4 种数据类型：字节串（Byte String）、整数（Integer）、列表（List, 线性表）、字典（Dictionary）。
+**BEncoding** 是一种用于组织、描述数据的简洁编码格式，它支持 4 种数据类型：字节串（Byte String）、整数（Integer）、列表（List, 线性表）、字典（Dictionary）。
 
-**Bencoding** 使用不同的格式描述上述类型，下面逐一介绍：
+**BEncoding** 使用不同的格式描述上述类型，下面逐一介绍：
+
+> 为了方便表述，在本文中，每一个使用 **Bencoding** 编码的数据称为
 
 -   字节串（Byte String）
 
@@ -44,6 +46,7 @@
 
 -   列表（List, 线性表）
 
+    列表的格式为 `l
 
 
 
