@@ -109,7 +109,11 @@
 
 > - [C](https://sourceforge.net/p/funzix/code/ci/master/tree/bencode/) by [Mike Frysinger](https://wiki.theory.org/index.php?title=User:Vapier&action=edit&redlink=1)
 > - [C](https://github.com/willemt/CHeaplessBencodeReader)
-> - [C#](http://snipplr.com/view/37790/bencoding-encoder-and-decoder/) by [SuprDewd](https://wiki.theory.org/index.php?title=User:SuprDewd&action=edit&redlink=1）
+> - [C#](http://snipplr.com/view/37790/bencoding-encoder-and-decoder/) by [SuprDewd](https://wiki.theory.org/index.php?title=User:SuprDewd&action=edit&redlink=1)
+> - [C#](http://bencode.codeplex.com/) by [LordMike](https://wiki.theory.org/index.php?title=User:LordMike&action=edit&redlink=1)
+> - [Clojure](http://nakkaya.com/2009/11/02/decoding-bencoded-streams-in-clojure/) by [nakkaya](https://wiki.theory.org/index.php?title=User:Nakkaya&action=edit&redlink=1)
+> - [Common Lisp](https://gist.github.com/2021424) by [osa1](https://wiki.theory.org/index.php?title=User:Osa1&action=edit&redlink=1)
+> - [Elixir](https://github.com/folz/bento) by [Rodney Folz](https://twitter.com/rodneyfolz)
 > - 
 
 
