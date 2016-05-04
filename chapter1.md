@@ -1,3 +1,7 @@
 # 第一篇：基本概念
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+
+## 定义
+
+`BitTorrent` 是一个由 Bram Cohen 设计的 P2P 文件传输协议
+
