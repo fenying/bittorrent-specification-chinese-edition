@@ -96,7 +96,11 @@
 
     表示 `{ "publisher" => "bob", "publisher-webpage" => "www.example.com", "publisher.location" => "home" }`
 
+    ```
+    de
+    ```
 
+    表示一个空字典 `{}`
 
 
 
