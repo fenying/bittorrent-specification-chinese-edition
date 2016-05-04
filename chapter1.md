@@ -24,9 +24,9 @@
 
 为了清晰、明确地表述，本文档中使用了一定量的术语，如下：
 
-*BitTorrent*: 指 BitTorrent 协议本身，下面简称 *BT*。
+*BitTorrent*: 指 BitTorrent 协议，下面简称 *BT*。
 
-*伙伴(Peer)*: 本文档中，同伴是指一切参与下载（上传）的*BT客户端(Client)*。因此*客户端(Client)*也是*伙伴(Peer)*
+*伙伴(Peer)*: 本文档中，同伴是指一切参与下载（上传）的*BT客户端(Client)*。因此*BT客户端(Client)*也是*伙伴(Peer)*
 
 peer v/s client: In this document, a peer is any BitTorrent client participating in a download. The client is also a peer, however it is the BitTorrent client that is running on the local machine. Readers of this specification may choose to think of themselves as the client which connects to numerous peers.
 piece v/s block: In this document, a piece refers to a portion of the downloaded data that is described in the metainfo file, which can be verified by a SHA1 hash. A block is a portion of data that a client may request from a peer. Two or more blocks make up a whole piece, which may then be verified.
