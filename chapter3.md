@@ -22,6 +22,12 @@
 
     > 参考文档：[private 扩展字段的申请稿](http://bittorrent.org/beps/bep_0027.html)。
 
-    > Azureus（BT客户端软件）第一个实现了 **private** 字段。
+    > Azureus（BT客户端软件）最先支持了 **private** 字段。
+
+### 单文件格式的 info 字典字段内容
+
+
+
+### 多文件格式的 info 字典字段内容
 
 （未完待续）
