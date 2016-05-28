@@ -14,4 +14,5 @@ Tracker 的 URL 被包含在种子文件中，即 announce 字段，而请求携
 - **uploaded** 自上一次向 Tracker 发送 `event=start` 请求之后，**BT客户端** （对于该种子）的总上传字节数，以十进制整数 ASCII 字符串表示。
 - **downloaded** 自上一次向 Tracker 发送 `event=start` 请求之后，**BT客户端** （对于该种子）的总下载字节数，以十进制整数 ASCII 字符串表示。
 
+（未完待续）
 
