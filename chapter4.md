@@ -10,5 +10,7 @@ Tracker 的 URL 被包含在种子文件中，即 announce 字段，而请求携
 
 - **info_hash** 种子文件的 info 字段的 SHA-1 校验值。
 - **peer_id** 表示请求者（**BT客户端**）的唯一 ID，一般是客户端在启动时生成的 20 字节字符串。此值不限制格式，任意二进制值都是可以的。但由于 **peer_id** 没有相关的产生准则，因此它仅被假定在您的本地计算机上是唯一的。
+- **uploaded** 自上一次 **BT客户端** 向 Tracker 发送 `event=start` 请求之后的总上传字节数，以十进制整数 ASCII 字符串表示。
+- **downloaded** 自上一次 **BT客户端** 向 Tracker 发送 `event=start` 请求之后的总下载字节数，以十进制整数 ASCII 字符串表示。
 
 
